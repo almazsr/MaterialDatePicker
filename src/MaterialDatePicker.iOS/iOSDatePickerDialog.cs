@@ -10,7 +10,7 @@ namespace MaterialDatePicker.iOS
 {
     public class iOSDatePickerDialog : NSObject, IDatePickerDialog
     {
-        public readonly UIColor CalendarColor = new UIColor(red: 0.10f, green: 0.47f, blue: 0.73f, alpha: 1.0f);
+        public UIColor AccentColor { get; set; }
 
         private MDDatePickerDialog _dialog;
 
@@ -45,16 +45,15 @@ namespace MaterialDatePicker.iOS
 
         protected virtual void Customize(MDDatePickerDialog dialog)
         {
-            dialog.Header.LabelDayName.BackgroundColor = CalendarColor;
-            dialog.Header.BackgroundColor = CalendarColor;
+            dialog.Header.LabelDayName.BackgroundColor = AccentColor;
+            dialog.Header.BackgroundColor = AccentColor;
 
-            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(0)] = CalendarColor;
-            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(1)] = CalendarColor;
-            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(2)] = CalendarColor;
-            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(4)] = CalendarColor;
-
-            dialog.ButtonCancel.SetTitle("ОТМЕНА", UIControlState.Normal);
-            dialog.Calendar.TitleColors[NSNumber.FromInt16(8)] = CalendarColor;
+            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(0)] = AccentColor;
+            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(1)] = AccentColor;
+            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(2)] = AccentColor;
+            dialog.Calendar.BackgroundColors[NSNumber.FromInt16(4)] = AccentColor;
+            
+            dialog.Calendar.TitleColors[NSNumber.FromInt16(8)] = AccentColor;
         }
 
         public Task<DateTime?> PickDateAsync(DateTime? selectedDate = null, DateTime? minDate = null)
