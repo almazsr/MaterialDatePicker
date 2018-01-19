@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDatePicker", "MaterialDatePicker\MaterialDatePicker.csproj", "{5BABAFD8-30EF-4FDF-9CDF-4065B52F8747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDatePicker.Android", "MaterialDatePicker.Android\MaterialDatePicker.Android.csproj", "{98CF7BC5-A6A4-4F4C-8C38-4FCDE7ACCDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDatePicker.iOS", "MaterialDatePicker.iOS\MaterialDatePicker.iOS.csproj", "{80E645FF-3CF9-4511-A092-72B7AADF97B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDatePicker.iOS.Bindings", "MaterialDatePicker.iOS.Bindings\MaterialDatePicker.iOS.Bindings.csproj", "{9D13BDE0-6188-4A23-8B18-5DE8A8452DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BABAFD8-30EF-4FDF-9CDF-4065B52F8747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BABAFD8-30EF-4FDF-9CDF-4065B52F8747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BABAFD8-30EF-4FDF-9CDF-4065B52F8747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BABAFD8-30EF-4FDF-9CDF-4065B52F8747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CF7BC5-A6A4-4F4C-8C38-4FCDE7ACCDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CF7BC5-A6A4-4F4C-8C38-4FCDE7ACCDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CF7BC5-A6A4-4F4C-8C38-4FCDE7ACCDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CF7BC5-A6A4-4F4C-8C38-4FCDE7ACCDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E645FF-3CF9-4511-A092-72B7AADF97B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E645FF-3CF9-4511-A092-72B7AADF97B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E645FF-3CF9-4511-A092-72B7AADF97B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E645FF-3CF9-4511-A092-72B7AADF97B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D13BDE0-6188-4A23-8B18-5DE8A8452DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D13BDE0-6188-4A23-8B18-5DE8A8452DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D13BDE0-6188-4A23-8B18-5DE8A8452DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D13BDE0-6188-4A23-8B18-5DE8A8452DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B302DB82-5F71-45AF-AC5A-D9B5492E9AE4}
+	EndGlobalSection
+EndGlobal
